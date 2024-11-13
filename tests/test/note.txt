@@ -1,0 +1,19 @@
+├── test-results
+│   ├── data
+    ├── index.html 
+├── tests
+│   ├── pages                # Page classes following the POM pattern for UI components
+│   │   ├── polestarDeveloperPage
+│   │ 
+│   ├── services             # Service classes for API interactions
+│   │   ├── not updated yet
+│
+│   ├── utils                # Utilities and helper functions for reusable code
+│   │   └──  not updated yet
+│   ├── tests                                 # Organized test scripts for UI and API
+│   │   ├──  polestarDeveloperTest.spec.js              # UI test file (need to reorg)
+│   │   │                                   
+│   │   ├── gorest-api-tests.spec.js           # API pasitive and negative validation  
+│   │   └── gorest-api-Negativetests.spec.js
+├── reports                  # Automatically generated test reports (HTML, screenshots)
+└── playwright.config.ts     # Playwright configuration file with test settings

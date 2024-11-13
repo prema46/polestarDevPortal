@@ -2,7 +2,7 @@ const { defineConfig } = require('@playwright/test');
 
 module.exports = defineConfig({
   testDir: './tests',
-  fullyParallel: true, 
+ // fullyParallel: true, 
   timeout: 60 * 1000,
   retries: 0,
   reporter: [['html', { outputFolder: 'reports' }], ['json', { outputFile: 'reports/test-results.json' }]],

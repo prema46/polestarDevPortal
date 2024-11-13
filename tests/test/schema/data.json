@@ -1,0 +1,14 @@
+// data.json
+[
+    { "id": 7520722, "name": "dee", "email": "dee.dee@example.com", "gender": "female", "status": "active" },
+    { "id": 7520677, "name": "JohnDee", "email": "john.dee@example.com", "gender": "male", "status": "active" },
+    { "id": 7520669, "name": "John3Doe", "email": "john3doe@example.com", "gender": "male", "status": "active" },
+    { "id": 7520605, "name": "Chakravarti Varrier", "email": "chakravarti_varrier@brown.test", "gender": "female", "status": "active" },
+    { "id": 7520603, "name": "Anjushri Menon", "email": "menon_anjushri@wilkinson-feest.example", "gender": "male", "status": "inactive" },
+    { "id": 7520601, "name": "Rukmin Tandon VM", "email": "rukmin_vm_tandon@altenwerth-runolfsson.example", "gender": "male", "status": "inactive" },
+    { "id": 7520600, "name": "Rakesh Singh", "email": "rakesh_singh@schimmel.test", "gender": "female", "status": "active" },
+    { "id": 7520598, "name": "Preity Jain", "email": "jain_preity@rolfson-ruecker.test", "gender": "male", "status": "active" },
+    { "id": 7520597, "name": "Himani Achari", "email": "achari_himani@hahn.test", "gender": "male", "status": "active" },
+    { "id": 7520596, "name": "Damodara Asan", "email": "asan_damodara@dooley.test", "gender": "male", "status": "active" }
+  ]
+  

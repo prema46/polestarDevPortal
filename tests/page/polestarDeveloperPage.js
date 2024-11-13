@@ -27,11 +27,7 @@ class PolestarDevPage {
   // Click the logo and navigate to the expected page
   async clickLogo() {
     const logo = this.page.locator('//*[@id="mega-menu-:r0:"]/div[1]/div[1]/div/header/a');
-    // Ensure the button is correctly located
-    if (!await logo.isVisible()) {
-      throw new Error("Button is not visible on the page.");
-    }
-
+    await this.page.waitForSelector('//*[@id="mega-menu-:r0:"]/div[1]/div[1]/div/header/a', { state: 'visible' });
     // Check if the button is enabled
     const isEnabled = await logo.isEnabled();
     console.log(`Button is enabled: ${isEnabled}`);
@@ -39,7 +35,7 @@ class PolestarDevPage {
       throw new Error("Button is not enabled.");
     }
     // Clcik logo and verify the page 
-await logo.click();
+    await logo.click();
 
   }
 
