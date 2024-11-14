@@ -21,14 +21,16 @@ Installing
 ### Clone the repository:
 
 ** git clone <repository-url>
-Navigate to the project directory:
+Navigate to the project directory: in cmd 
 
 
 cd <project-folder>
 Install the dependencies:
 
-npm install
+`npm install`
+
 ### Executing Program
+
 To run the Playwright tests, use:
 
 
